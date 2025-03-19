@@ -1,0 +1,116 @@
+/* Dark Theme for ZPA U18 */
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #00aaff;
+    text-shadow: 2px 2px 10px rgba(0, 170, 255, 0.7);
+}
+
+input, button {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+input {
+    background: #222;
+    color: white;
+    outline: none;
+    border: 1px solid #00aaff;
+}
+
+button {
+    background: #00aaff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0077cc;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    white-space: pre-line;
+    font-size: 18px;
+}
+
+#media {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.7);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Lightbox styles */
+#lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#lightbox img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+#lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#prev { left: 10px; }
+#next { right: 10px; }
